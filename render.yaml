@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: huangdi-neizhen-ai-backup
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: HDNZ_PROVIDER
+        value: openai
+      - key: HDNZ_BASE_URL
+        value: https://open.bigmodel.cn/api/paas/v4
+      - key: HDNZ_MODEL
+        value: glm-4.5-flash
+      - key: HDNZ_API_KEY
+        sync: false
