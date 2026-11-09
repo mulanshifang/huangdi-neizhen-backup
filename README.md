@@ -1,3 +1,12 @@
+---
+title: Huangdi Neizhen AI Backup
+emoji: 📖
+colorFrom: gray
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 # 黄帝内针 AI · 本地/云端自托管复刻版
 
 原站 `https://huangdi-neizhen-ai-1.onrender.com/` 的完整备份实现：同样的接口、同样的页面、同样的知识库组织方式，模型可自由替换（阿里百炼 / 任意 OpenAI 兼容接口 / 本地 Ollama / 纯检索离线模式）。
